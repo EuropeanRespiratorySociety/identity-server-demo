@@ -1,0 +1,17 @@
+{
+  "name": "identity-demo",
+  "version": "0.0.0",
+  "description": "Test project for the ERS identity server",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "Samuel Pouyt",
+  "license": "ISC",
+  "dependencies": {
+    "oidc-client": "^1.5.3-beta.1"
+  }
+}
