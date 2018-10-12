@@ -17,6 +17,7 @@ const config = {
 };
 const mgr = new Oidc.UserManager(config);
 
+
 mgr.getUser().then(function (user) {
     if (user) {
         log("User logged in", user.profile);
@@ -35,7 +36,7 @@ function api() {
         var url = server;
 
         var xhr = new XMLHttpRequest();
-        xhr.open("GET", url);
+        xhr.open("GET", 'https://identity.ersnet.org');
         xhr.onload = function () {
             log(xhr.status, JSON.parse(xhr.responseText));
         }
