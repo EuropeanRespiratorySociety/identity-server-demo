@@ -12,7 +12,7 @@ const config = {
     client_id: "c045284d-ba5d-44b1-86e5-b0cfa1cb2be8",
     redirect_uri: `${server}callback.html`,
     response_type: "id_token token",
-    scope: "openid profile api1",
+    scope: "openid profile email ersmbship",
     post_logout_redirect_uri: `${server}index.html`,
 };
 const mgr = new Oidc.UserManager(config);
