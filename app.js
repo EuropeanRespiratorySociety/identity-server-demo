@@ -36,7 +36,7 @@ function api() {
         var url = server;
 
         var xhr = new XMLHttpRequest();
-        xhr.open("GET", 'https://identity.ersnet.org');
+        xhr.open("GET", 'https://identity.ersnet.org/identity');
         xhr.onload = function () {
             log(xhr.status, JSON.parse(xhr.responseText));
         }
